@@ -1,7 +1,6 @@
 import discord
 from discord import Status
 from keep_alive import keep_alive
-token = "ODk1NTc0MDMxODkyMzY5NDUw.YdmCew.QZdwJW-ZYh2qI9K4Sl20T6tUlHc" #put your token here 
 voice = '929348909304782848' # put channel id here
 client = discord.Client(self_bot =True)
 @client.event
@@ -22,6 +21,6 @@ async def on_ready():
     await client.change_presence(status=Status.invisible)
     print(f"{client.user} : joined : {channel} / now your status is invisible")
 keep_alive()
-client.run(f"{token}")
+client.run("ODk1NTc0MDMxODkyMzY5NDUw.YdmCew.QZdwJW-ZYh2qI9K4Sl20T6tUlHc")
 
 
