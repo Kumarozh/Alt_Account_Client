@@ -1,7 +1,7 @@
 import discord
 from discord import Status
-token = "token" #put your token here 
-voice = 'voice id' # put channel id here
+token = "ODk1NTc0MDMxODkyMzY5NDUw.YdmCew.QZdwJW-ZYh2qI9K4Sl20T6tUlHc" #put your token here 
+voice = '929348909304782848' # put channel id here
 client = discord.Client(self_bot =True)
 @client.event
 async def on_ready():
