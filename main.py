@@ -21,6 +21,6 @@ async def on_ready():
     await client.change_presence(status=Status.invisible)
     print(f"{client.user} : joined : {channel} / now your status is invisible")
 keep_alive()
-client.run("ODk1NTc0MDMxODkyMzY5NDUw.YdmCew.QZdwJW-ZYh2qI9K4Sl20T6tUlHc")
+client.run("token")
 
 
